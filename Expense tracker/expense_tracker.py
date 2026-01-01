@@ -16,7 +16,6 @@ def view_expenses():
 while True:
     print("\n1.Add Expense  2.View Expenses  3.Exit")
     choice = input("Choose: ")
-
     if choice == "1":
         add_expense()
     elif choice == "2":
